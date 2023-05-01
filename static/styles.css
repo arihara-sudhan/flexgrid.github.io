@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+* {
+	font-family: 'Cinzel', serif;
+}
+
+header {
+	border-radius: 1em;
+	background-color: rgba(66,65,77,255);
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+header img {
+	width: 12%;
+	border-radius: 50%;
+	margin: 1%;
+	border: 2px solid white;
+}
+header span {
+	color: white;
+	font-size: 6vw;
+}
+header i {
+	color: white;
+	width: 3px;
+}
+.subhead {
+	display: flex;
+	flex-direction: column;
+}
+.icons {
+	display: flex;
+	justify-content: space-around;
+}
+body {
+	background-color: #2b2a33;
+}
+
+.people {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	justify-content: space-around;
+}
+.subpeople img {
+	width: 80%;
+	margin: 2%;
+	border-radius: 2%;
+}
+.subpeople span {
+	font-size: 2vw;
+	color: white;
+}
+
+.subpeople {
+	border-radius: 2%;
+	margin: 2%;
+	background-color: rgba(66,65,77,255);
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+}
+.subpeople:hover {
+	transform: rotate3d(2,3,5,270deg);
+}
